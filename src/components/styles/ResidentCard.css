@@ -1,0 +1,85 @@
+.resident{
+    width: 100%;
+    max-width: 19em;
+    background-color: var(--secondary-color );
+    border-radius: 0.9em;
+    overflow: hidden;
+    transition: all .5s ease;
+    &:hover{
+        scale: 1.03;
+        box-shadow: 0 0 10px 1px white;
+    }
+}
+.resident__header{
+    position: relative;
+
+.resident__status-container{
+    position: absolute;
+    top: 3em;
+    background: var(--secondary-color);
+    color: white;
+    min-width: 7em;
+    padding: 0.3em 1em;
+    border-radius: 0 .5em .5em 0;
+    gap: 0.8em;
+
+    .resident__status-circle-unknown{
+        width: 1em;
+        aspect-ratio: 1;
+        background-color: #aaa;
+        border-radius: 50%;
+    }
+
+    .resident__status-circle-Alive{
+        width: 1em;
+        aspect-ratio: 1;
+        background-color: #2fff00;
+        border-radius: 50%;
+    }
+
+    .resident__status-circle-Dead{
+        width: 1em;
+        aspect-ratio: 1;
+        background-color: #b90000;
+        border-radius: 50%;
+    }
+
+    .resident__status{
+        font-size: 0.9em;
+        font-weight: 500;
+               
+    }
+}
+}
+
+.resident__body{
+    color: white;
+    padding: 1.5em 1.5em 2em;
+
+    .resident_name{
+        text-align: center;
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+
+    .resident__hr{
+        margin: 1em 0;
+        border-color: #9994;
+    }
+
+    .resident__list{
+        gap: 0.8em;
+    
+        .resident__item {
+            gap: 0.2;
+        }
+        .resident__label{
+            font-size: 0.8em;
+            color: #999;
+            padding-left: 1em;
+        }
+        .resident__value{
+            font-size: 1em;
+        }
+
+    }}
